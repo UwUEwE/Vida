@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap');
+
+
+
+
+body{
+
+
+background-color:#ffe49c;
+text-align: center;
+
+
+
+}
+.gato{
+
+ background:linear-gradient(#9cfffd 0% ,#ff9cff 100%);
+display: flex;
+justify-content: center;
+
+}
+.perfil {
+
+
+
+}
+#abelha{
+
+font-family: monospace;
+font-size: 30px;
+
+
+}
+#crocodilo{
+
+font-family: cursive;
+font-size:50px;
+
+
+}
+#jacare{
+
+font-family: cursive;  
+font-size:25px;
+
+
+
+}
+.menu{
+
+   list-style: none;
+   font-family:'Cinzel Decorative', cursive;
+   position: fixed ;
+   right: 30px ;
+   top: 30px;
+   cursor:pointer;
+   z-index:10;
+}
+.link{
+
+    float:left; 
+    padding-right:9px;
+    padding-left:9px;
+    padding-bottom:5px;
+    padding-top:5px;
+}
+.link:hover{
+
+   color:floralwhite;
+
+}
+a{
+color: rgb(22, 63, 177) ;
+text-decoration: none;
+
+}
+a:hover{
+color: #92385d;
+text-decoration:underline;
+font-size:25px;
+}
